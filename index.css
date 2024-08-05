@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    background-color: darkgrey;
+}
+.personaje{
+    background-color: brown;
+    height: 5vh;
+    width: 4vw;
+}
