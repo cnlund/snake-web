@@ -7,7 +7,7 @@ window.onload = () => {
             case 'ArrowDown':
                 if(pj_pos_y < 95){
                     pj_pos_y += 1
-                    pj.style.marginTop = pj_pos_y + 'vh'
+                    pj.style.top = pj_pos_y + 'vh'
                     break;
             }else{
                 break;
@@ -15,7 +15,7 @@ window.onload = () => {
             case 'ArrowUp':
                 if(pj_pos_y > 0){
                     pj_pos_y -= 1
-                    pj.style.marginTop = pj_pos_y + 'vh'
+                    pj.style.top = pj_pos_y + 'vh'
                     break;
                 }else{
                     break;
@@ -23,7 +23,7 @@ window.onload = () => {
             case 'ArrowRight':
                 if(pj_pos_x < 96){
                     pj_pos_x += 1
-                    pj.style.marginLeft = pj_pos_x + 'vw'
+                    pj.style.left = pj_pos_x + 'vw'
                     break;
                 }else{
                     break;
@@ -31,7 +31,7 @@ window.onload = () => {
             case 'ArrowLeft':
                 if(pj_pos_x > 0){
                     pj_pos_x -= 1
-                    pj.style.marginLeft = pj_pos_x + 'vw' 
+                    pj.style.left = pj_pos_x + 'vw' 
                 }         
         }
     })

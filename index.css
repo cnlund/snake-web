@@ -3,6 +3,7 @@
     background-color: darkgrey;
 }
 .personaje{
+    position: absolute;
     background-color: brown;
     height: 5vh;
     width: 4vw;
