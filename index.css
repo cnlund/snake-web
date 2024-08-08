@@ -4,7 +4,15 @@
 }
 .personaje{
     position: absolute;
-    background-color: brown;
+    background-color: green;
     height: 5vh;
-    width: 4vw;
+    width: 3vw;
+}
+.punto{
+    display: none;
+    position: absolute;
+    background-color: red;
+    height: 5vh;
+    width: 3vw;
+    border-radius: 50%;
 }
